@@ -50,6 +50,26 @@ Information from Available Sources:
 
 - Interviews with New York Times staff, such as Data Scientists or Product Managers, might offer insights into the goals and strategies behind their recommendation system.
 
+### Recommender System Algorithms 
+
+1. Collaborative Filtering:
+
+- Algorithm: Collaborative filtering methods recommend items based on the preferences and behavior of similar users. This can be user-based or item-based.
+
+- Data Preparation: User-item interaction data, such as clicks, views, and saves, would be collected and organized into a user-item matrix. The matrix could be sparse, with rows representing users and columns representing articles. Missing values indicate articles not interacted with by users.
+
+2. Content-Based Filtering:
+
+- Algorithm: Content-based filtering recommends items similar to those the user has interacted with in the past, based on item attributes or content.
+
+- Data Preparation: Article metadata, such as title, author, section, keywords, and text content, would be extracted and transformed into feature vectors. Techniques like TF-IDF (Term Frequency-Inverse Document Frequency) or word embeddings (e.g., Word2Vec, GloVe) could be used to represent articles as numerical vectors.
+
+3. Deep Learning Models:
+
+- Algorithm: Deep learning models, such as neural networks, can learn complex patterns from user-item interaction data and article content.
+
+- Data Preparation: Deep learning models require extensive preprocessing of data, including encoding categorical features (e.g., article category), handling text data (e.g., tokenization, embedding), and possibly sequence modeling for temporal patterns in user behavior.
+
 ### How can you help them accomplish those goals?
 To help users accomplish their goals, the New York Times Recommendation Engine can implement the following strategies:
 
